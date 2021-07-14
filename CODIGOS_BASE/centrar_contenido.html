@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+
+<!--CENTRAR CONTENIDO A LA PAGINA -->
+    <div class="container">
+        <!--ENCERRAR EN UN CONTAINER-->
+        <div class="row justify-content-around">
+            <!--DEFINIR ESTRUCTURA DE COLUMNAS Y JUSTIFICAR CONTENIDO AL CENTRO DE LA PAGINA-->
+            <div class="col-4">
+                <!--DEFINIR TAMANIO A OCUPAR DE LA PAGINA EN ESTE CASO COL-4 ESPACIOS -->
+                <h1 class="bg-danger">One of three columns</h1>
+            </div>
+        </div>
+    </div>
+
+
+    <!--ROW
+    la etiqueta row tambien hace que el boton ocupe todo el espacio en pantalla asignado
+
+    ****************************************************************
+    class="text-center" tambien centra todo
+    -->
+
+
+
+
+<!--CENTRAR TODO EL CONTENIDO DE UN CENTER -->
+    <div class="container">
+
+<!--CENTRA TODO / OCUPA TODO EL ESPACIO DEL VIB *********************-->
+        <div class="row justify-content-center border border-danger">
+            <h1 class="border border-success">HOLA QUE HACE</h1>
+            <button class="btn btn-primary" type="submit">Button</button>
+        </div>
+        <button class="btn btn-primary" type="submit">Button</button>
+    </div>
+
+
+<!--CENTRA EL TEXTO-->
+    <h1 class="text-center pt-5">Personas</h1>
+
+
+<!--FROM-CONTROL MANEJA TODO EL ESPACIO DEL CONTENEDOR -->
+<form action="controlador" method="post">
+    ID: <input type="text" class="form-control" name="id"><br>
+    NOMBRE: <input type="text" class="form-control" name="nombre"><br>
+    DPI: <input type="text" class="form-control" name="dpi"><br>
+    <input type="submit" class="btn btn-primary mb-5" name="accion" value="Guardar">
+</form>  
+    
+
+</body>
+
+</html>
